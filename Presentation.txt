@@ -1,1 +1,15 @@
-
+  PRESENTATION.
+  
+  First I use BeautifulSoup to collect the Data.Afterwards i clear them  and append the string of
+  ",Greeece" in order to have proper API CALLS with the use of geocode and find the latlong.I visualize them on
+  the map.Later on i construct Foursquare API calls in order to collect the popular venues on each island.
+  However i modified the function with the Calls and i changed the parameters.The radius was increased to
+  to 30KM in order to have the full range of the island and the LIMIT was changed to 200 popular venues from 100
+  .I used as i said getdummies for the frequency to be found as well as the methods of describe and count values.
+  Finally,I clustered the Islands on the map ,But I initialize the algorithm with 10 centroids in order to have 
+  better results with more precision.So we have groups from 0 to 9.After the clustering the remaining Islands
+  (the ones with lowest cluster label 0 or 1) were shown in a new map.These Islands are "dissimilar" of the
+  others in terms of popularity ,so there are suitable for investment since there are still Developing.With
+  the results of DATA anlysis you can determine what investment would be profitable on those Islands...
+  
+  
