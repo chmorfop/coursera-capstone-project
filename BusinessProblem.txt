@@ -1,5 +1,11 @@
 
 Introduction/Business Problem:
 
-My project focus mainly on investors,who want to invest in Tourism.I choose Greece and more precisely its Islands of Aegean.If someone wants to invest in tourism and particularly in Greece ,there are limited options such as Hotels,restaurants and beach bars.The aim of my project is to cluster the majority of the islands and isolate the ones 
-with the least popularity ,in which is smart move to invest since they are still developing.So to open a restaurant or a hotel in those islands is safe based on the term of Supply and Demand.
+My project focus mainly on investors,who want to invest in Tourism.
+I choose Greece and more precisely its Islands of Aegean.
+If someone wants to invest in tourism and particularly in Greece ,there are limited options such as Hotels,restaurants and beach bars.
+The aim of my project is to cluster the majority of the islands and isolate the ones 
+with the least popularity ,in which is smart move to invest since they are still developing.
+For this case I clustered them into groups with 10 centroids.Only the islands with a cluster label of 0 or 1
+are the Special ones ,the Developing ones with low levels of populairty.
+So to open a restaurant or a hotel in those islands is safe based on the term of Supply and Demand...
