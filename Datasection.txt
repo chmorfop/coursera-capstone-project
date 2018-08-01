@@ -1,1 +1,11 @@
 
+  DATA SECTION.
+
+  The Data of the project are from the wikipedia (https://en.wikipedia.org/wiki/List_of_Aegean_Islands) and i retrieved them with the help   of the library BeautifulSoup.Later i clear them and assign them properly in order to have proper API calls.
+  
+  First I use BeautifulSoup to collect the Data.Afterwards i clear them  and append the string of
+  ",Greeece" in order to have proper API CALLS with the use of geocode and find the latlong.I visualize them on
+  the map.Later on i construct Foursquare API calls in order to collect the popular venues on each island.
+  However i modified the function with the Calls and i changed the parameters.The radius was increased to
+  to 30KM in order to have the full range of the island and the LIMIT was changed to 200 popular venues from 100
+  .
